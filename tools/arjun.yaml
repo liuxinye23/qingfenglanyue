@@ -1,0 +1,47 @@
+name: "arjun"
+command: "arjun"
+enabled: true
+short_description: "HTTP??????"
+description: |
+  Arjun ??? HTTP ??????????? Web ?????????
+parameters:
+  - name: "url"
+    type: "string"
+    description: "??URL"
+    required: true
+    flag: "-u"
+    format: "flag"
+  - name: "method"
+    type: "string"
+    description: "HTTP???GET, POST??"
+    required: false
+    flag: "-m"
+    format: "flag"
+    default: "GET"
+  - name: "wordlist"
+    type: "string"
+    description: "???????"
+    required: false
+    flag: "-w"
+    format: "flag"
+    default: "/root/INNP-main/.tools/wordlists/params-small.txt"
+  - name: "threads"
+    type: "int"
+    description: "???"
+    required: false
+    flag: "-t"
+    format: "flag"
+    default: 5
+  - name: "stable"
+    type: "bool"
+    description: "??????"
+    required: false
+    flag: "--stable"
+    format: "flag"
+    default: true
+  - name: "additional_args"
+    type: "string"
+    description: |
+      ??? Arjun ????????????????? Arjun ???
+    required: false
+    format: "positional"

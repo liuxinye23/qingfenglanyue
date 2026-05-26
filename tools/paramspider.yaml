@@ -1,0 +1,40 @@
+name: "paramspider"
+command: "paramspider"
+enabled: true
+allowed_exit_codes: [124]
+short_description: "?Web???????URL??"
+description: |
+  ParamSpider ? Web ??????? URL ????????? Web ?????????
+parameters:
+  - name: "domain"
+    type: "string"
+    description: "????"
+    required: true
+    flag: "-d"
+    format: "flag"
+  - name: "stream"
+    type: "bool"
+    description: "???????URL"
+    required: false
+    flag: "-s"
+    format: "flag"
+    default: true
+  - name: "proxy"
+    type: "string"
+    description: "????"
+    required: false
+    flag: "--proxy"
+    format: "flag"
+  - name: "placeholder"
+    type: "string"
+    description: "??????"
+    required: false
+    flag: "-p"
+    format: "flag"
+    default: "FUZZ"
+  - name: "additional_args"
+    type: "string"
+    description: |
+      ??? ParamSpider ????????????????????
+    required: false
+    format: "positional"

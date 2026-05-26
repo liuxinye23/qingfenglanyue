@@ -1,0 +1,32 @@
+name: "subfinder"
+command: "subfinder"
+enabled: true
+short_description: "?????????????????"
+description: |
+  Subfinder ?????????????????
+parameters:
+  - name: "domain"
+    type: "string"
+    description: "????"
+    required: true
+    flag: "-d"
+    format: "flag"
+  - name: "silent"
+    type: "bool"
+    description: "????"
+    required: false
+    default: true
+    flag: "-silent"
+    format: "flag"
+  - name: "all_sources"
+    type: "bool"
+    description: "???????"
+    required: false
+    default: false
+    flag: "-all"
+    format: "flag"
+  - name: "additional_args"
+    type: "string"
+    description: "??? Subfinder ??"
+    required: false
+    format: "positional"

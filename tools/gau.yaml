@@ -1,0 +1,32 @@
+name: "gau"
+command: "gau"
+enabled: true
+short_description: "??????????URL"
+description: |
+  Gau (Get All URLs) ??????????????? URL?
+parameters:
+  - name: "domain"
+    type: "string"
+    description: "????"
+    required: true
+    position: 0
+    format: "positional"
+  - name: "providers"
+    type: "string"
+    description: "????wayback,commoncrawl,otx,urlscan?"
+    required: false
+    flag: "--providers"
+    format: "flag"
+  - name: "include_subs"
+    type: "bool"
+    description: "?????"
+    required: false
+    flag: "--subs"
+    format: "flag"
+    default: true
+  - name: "additional_args"
+    type: "string"
+    description: |
+      ??? Gau ????????????????????
+    required: false
+    format: "positional"

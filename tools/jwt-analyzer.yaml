@@ -1,0 +1,20 @@
+name: "jwt-analyzer"
+command: "jwt-analyzer"
+enabled: true
+short_description: "Decode a JWT/JWS, inspect risky headers and claims, and optionally verify HMAC secrets."
+description: |
+  Decode JWT headers and claims, flag common JWT trust issues, and optionally test HMAC secrets.
+parameters:
+  - name: "token"
+    type: "string"
+    description: "JWT or Bearer token string."
+    required: true
+    flag: "-token"
+  - name: "secret"
+    type: "string"
+    description: "Single HMAC secret candidate for HS256/HS384/HS512 verification."
+    flag: "-secret"
+  - name: "secret_candidates"
+    type: "string"
+    description: "Multiple HMAC secret candidates separated by commas or newlines."
+    flag: "-secret-candidates"

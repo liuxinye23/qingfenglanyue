@@ -1,0 +1,47 @@
+name: "dirsearch"
+command: "dirsearch"
+enabled: true
+short_description: "???????????"
+description: |
+  Dirsearch ????? Web ????????????????
+parameters:
+  - name: "url"
+    type: "string"
+    description: "??URL"
+    required: true
+    flag: "-u"
+    format: "flag"
+  - name: "extensions"
+    type: "string"
+    description: "???????????"
+    required: false
+    flag: "-e"
+    format: "flag"
+    default: "php,html,js,txt,xml,json"
+  - name: "wordlist"
+    type: "string"
+    description: "??????"
+    required: false
+    flag: "-w"
+    format: "flag"
+    default: "/root/INNP-main/.tools/wordlists/common.txt"
+  - name: "threads"
+    type: "int"
+    description: "???"
+    required: false
+    flag: "-t"
+    format: "flag"
+    default: 15
+  - name: "recursive"
+    type: "bool"
+    description: "??????"
+    required: false
+    flag: "-r"
+    format: "flag"
+    default: false
+  - name: "additional_args"
+    type: "string"
+    description: |
+      ??? dirsearch ????????????????????
+    required: false
+    format: "positional"

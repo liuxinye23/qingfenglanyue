@@ -1,0 +1,33 @@
+name: "waybackurls"
+command: "waybackurls"
+enabled: true
+short_description: "?Wayback Machine????URL"
+description: |
+  Waybackurls ? Wayback Machine ????????? URL?
+parameters:
+  - name: "domain"
+    type: "string"
+    description: "????"
+    required: true
+    position: 0
+    format: "positional"
+  - name: "get_versions"
+    type: "bool"
+    description: "???????URL"
+    required: false
+    flag: "-get-versions"
+    format: "flag"
+    default: false
+  - name: "no_subs"
+    type: "bool"
+    description: "??????"
+    required: false
+    flag: "-no-subs"
+    format: "flag"
+    default: false
+  - name: "additional_args"
+    type: "string"
+    description: |
+      ??? waybackurls ????????????????????
+    required: false
+    format: "positional"

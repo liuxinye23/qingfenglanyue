@@ -1,0 +1,96 @@
+# 辅助工具页面 HTML 模板
+# 将此内容添加到 web/templates/index.html 的页面区域
+
+<!-- 辅助工具页面 -->
+<div id="page-tools" class="page">
+    <div class="tools-page">
+        <!-- 页面头部 -->
+        <div class="page-header">
+            <h2 data-i18n="page-tools.title">辅助工具</h2>
+            <div class="page-header-actions">
+                <button class="btn-secondary" onclick="loadTools()">
+                    <span data-i18n="page-tools.actions.refresh">刷新</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- 页面描述 -->
+        <div class="page-description">
+            <span>🔧</span>
+            <span data-i18n="page-tools.description">渗透测试辅助工具管理与执行</span>
+            <span class="tips-badge" title="Agent可自动调度这些工具">💡 AI自动调度</span>
+        </div>
+
+        <div class="tools-layout">
+            <!-- 左侧：工具列表 -->
+            <div class="tools-sidebar">
+                <!-- 搜索和筛选 -->
+                <div class="tools-filter">
+                    <div class="search-box">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+                        <input type="text" id="tools-search" placeholder="搜索工具..." />
+                    </div>
+                </div>
+
+                <!-- 分类统计 -->
+                <div id="tools-stats" class="tools-stats">
+                    <!-- 动态生成 -->
+                </div>
+
+                <!-- 工具网格 -->
+                <div id="tools-grid" class="tools-grid">
+                    <!-- 动态生成 -->
+                </div>
+            </div>
+
+            <!-- 右侧：工具详情和输出 -->
+            <div class="tools-main">
+                <!-- 工具配置面板 -->
+                <div id="tool-panel" class="tool-panel">
+                    <div class="tool-panel-empty">
+                        <div class="empty-icon">🔧</div>
+                        <p>选择一个工具开始</p>
+                        <p class="hint">点击左侧工具卡片查看详情并配置参数</p>
+                    </div>
+                </div>
+
+                <!-- 执行输出面板 -->
+                <div id="tool-output" class="tool-output">
+                    <div class="output-empty">
+                        <div class="empty-icon">📋</div>
+                        <p>暂无执行输出</p>
+                        <p class="hint">选择一个工具并执行，输出将显示在这里</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 执行历史抽屉 -->
+        <div class="tools-history-drawer">
+            <div class="drawer-header">
+                <h3 data-i18n="page-tools.history.title">执行历史</h3>
+                <button class="btn-icon" onclick="toggleHistoryDrawer()">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+            <div id="executions-list" class="executions-list">
+                <!-- 动态生成 -->
+            </div>
+        </div>
+
+        <!-- 历史按钮 -->
+        <button class="history-toggle-btn" onclick="toggleHistoryDrawer()" title="执行历史">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+            <span id="history-count">0</span>
+        </button>
+    </div>
+</div>

@@ -1,0 +1,56 @@
+# Binaries and builds
+cyberstrike-ai
+cyberstrike-ai.bak.*
+cyberstrike-ai.new
+innp
+innp.bak-*
+innp.backup.*
+innp.new
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Core dumps
+core.*
+
+# Logs
+*.log
+server.out
+androguard.log
+
+# Backups
+.backup/
+.sync-backup-*
+config.yaml.backup
+
+# Runtime data
+data/
+chat_uploads/
+tmp/
+reports/
+androguard.db
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Config with secrets
+config.yaml
+
+# Tools runtime
+.tools/
+

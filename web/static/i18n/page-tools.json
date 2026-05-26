@@ -1,0 +1,69 @@
+{
+  "page-tools": {
+    "title": "辅助工具",
+    "description": "渗透测试辅助工具管理与执行",
+    "categories": {
+      "infoGathering": "信息收集",
+      "vulnDetection": "漏洞检测",
+      "bruteForce": "暴力破解",
+      "webPenetration": "Web渗透",
+      "reverseEngineering": "逆向工程",
+      "cloudSecurity": "云安全",
+      "other": "其他"
+    },
+    "status": {
+      "idle": "空闲",
+      "pending": "等待中",
+      "running": "运行中",
+      "completed": "已完成",
+      "failed": "失败",
+      "cancelled": "已取消"
+    },
+    "actions": {
+      "execute": "执行",
+      "cancel": "取消",
+      "viewOutput": "查看输出",
+      "clearOutput": "清空",
+      "refresh": "刷新",
+      "copy": "复制",
+      "download": "下载"
+    },
+    "form": {
+      "selectTool": "选择工具",
+      "parameters": "参数配置",
+      "timeout": "超时时间(秒)",
+      "workingDir": "工作目录",
+      "run": "运行",
+      "clear": "清空",
+      "target": "目标",
+      "additionalArgs": "额外参数"
+    },
+    "output": {
+      "title": "执行输出",
+      "stdout": "标准输出",
+      "stderr": "错误输出",
+      "noOutput": "暂无输出",
+      "exitCode": "退出码",
+      "duration": "执行时长",
+      "running": "工具运行中..."
+    },
+    "history": {
+      "title": "执行历史",
+      "clearHistory": "清空历史",
+      "noHistory": "暂无执行记录",
+      "total": "共",
+      "records": "条记录"
+    },
+    "tips": {
+      "autoDispatch": "Agent可自动调度工具",
+      "dangerousWarning": "危险操作需谨慎",
+      "timeoutTip": "设置为0表示使用默认超时(300秒)",
+      "clickToSelect": "点击选择一个工具"
+    },
+    "confirm": {
+      "cancel": "确定要取消当前执行吗？",
+      "clearHistory": "确定要清空所有执行历史吗？",
+      "dangerousTool": "这是一个危险工具，确定要执行吗？"
+    }
+  }
+}
