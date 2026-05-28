@@ -7,25 +7,6 @@
 
 [中文](README_CN.md) | [English](README.md)
 
-**Community**: [Join us on Discord](https://discord.gg/8PjVCMu8Zw)
-
-<details>
-<summary><strong>WeChat group</strong> (click to reveal QR code)</summary>
-
-<img src="./images/wechat-group-innp-qr.jpg" alt="INNP WeChat group QR code" width="280">
-
-</details>
-
-<details>
-<summary><strong>Sponsorship</strong> (click to expand)</summary>
-
-If INNP helps you, you can support the project via **WeChat Pay** or **Alipay**:
-
-<div align="center">
-  <img src="./images/sponsor-wechat-alipay-qr.jpg" alt="WeChat Pay and Alipay sponsorship QR codes" width="480">
-</div>
-
-</details>
 
 INNP is an **AI-native security testing platform** built in Go. It integrates 100+ security tools, an intelligent orchestration engine, role-based testing with predefined security roles, a skills system with specialized testing skills, comprehensive lifecycle management capabilities, and a **built-in lightweight C2 (Command & Control) framework** for **authorized** engagements (listeners, encrypted implants, sessions, tasks, real-time events, REST and MCP). Through native MCP protocol and AI agents, it enables end-to-end automation from conversational commands to vulnerability discovery, attack-chain analysis, knowledge retrieval, and result visualization—delivering an auditable, traceable, and collaborative testing environment for security teams.
 
@@ -89,14 +70,6 @@ INNP is an **AI-native security testing platform** built in Go. It integrates 10
 <td width="33.33%" align="center">
 <strong>System Settings</strong><br/>
 <img src="./images/settings.png" alt="System settings" width="100%">
-</td>
-<td width="33.33%" align="center">
-<strong>MCP stdio Mode</strong><br/>
-<img src="./images/mcp-stdio2.png" alt="MCP stdio mode" width="100%">
-</td>
-<td width="33.33%" align="center">
-<strong>Burp Suite Plugin</strong><br/>
-<img src="./images/plugins.png" alt="Burp Suite plugin" width="100%">
 </td>
 </tr>
 </table>
@@ -625,23 +598,6 @@ Use external Burp-based MCP server for authenticated traffic replay, then pass f
 Compress the 5 MB nuclei report, summarize critical CVEs, and attach the artifact to the conversation.
 Build an attack chain for the latest engagement and export the node list with severity >= high.
 ```
-
-## 404Starlink 
-
-<img src="./images/404StarLinkLogo.png" width="30%">
-
-INNP has joined [404Starlink](https://github.com/knownsec/404StarLink)
-
-## TCH Top-Ranked Intelligent Pentest Project  
-<div align="left">
-  <a href="https://zc.tencent.com/competition/competitionHackathon?code=cha004" target="_blank">
-    <img src="./images/tch.png" alt="TCH Top-Ranked Intelligent Pentest Project" width="30%">
-  </a>
-</div>
-
-## Stargazers over time
-![Stargazers over time](https://starchart.cc/liuxinye23/qingfenglanyue.svg)
-
 
 ---
 

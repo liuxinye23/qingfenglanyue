@@ -6,25 +6,6 @@
 
 [中文](README_CN.md) | [English](README.md)
 
-**社区**：[加入 Discord](https://discord.gg/8PjVCMu8Zw)
-
-<details>
-<summary><strong>微信群</strong>（点击展开二维码）</summary>
-
-<img src="./images/wechat-group-innp-qr.jpg" alt="INNP 微信群二维码" width="280">
-
-</details>
-
-<details>
-<summary><strong>赞助</strong>（点击展开）</summary>
-
-若 INNP 对您有帮助，可通过 **微信支付** 或 **支付宝** 赞助项目：
-
-<div align="center">
-  <img src="./images/sponsor-wechat-alipay-qr.jpg" alt="微信与支付宝赞助二维码" width="480">
-</div>
-
-</details>
 
 INNP 是一款 **AI 原生安全测试平台**，基于 Go 构建，集成了 100+ 安全工具、智能编排引擎、角色化测试与预设安全测试角色、Skills 技能系统与专业测试技能、完整的测试生命周期管理能力，以及面向 **授权场景** 的 **内置轻量 C2（Command & Control，指挥与控制）** 能力（监听器、加密通信、会话与任务、实时事件、REST 与 MCP 协同）。通过原生 MCP 协议与 AI 智能体，支持从对话指令到漏洞发现、攻击链分析、知识检索与结果可视化的全流程自动化，为安全团队提供可审计、可追溯、可协作的专业测试环境。
 
@@ -88,14 +69,6 @@ INNP 是一款 **AI 原生安全测试平台**，基于 Go 构建，集成了 10
 <td width="33.33%" align="center">
 <strong>系统设置</strong><br/>
 <img src="./images/settings.png" alt="系统设置" width="100%">
-</td>
-<td width="33.33%" align="center">
-<strong>MCP stdio 模式</strong><br/>
-<img src="./images/mcp-stdio2.png" alt="MCP stdio 模式" width="100%">
-</td>
-<td width="33.33%" align="center">
-<strong>Burp Suite 插件</strong><br/>
-<img src="./images/plugins.png" alt="Burp Suite 插件" width="100%">
 </td>
 </tr>
 </table>
@@ -624,20 +597,6 @@ INNP/
 构建最新一次测试的攻击链，只导出风险 >= 高的节点列表。
 ```
 
-## 404星链计划 
-<img src="./images/404StarLinkLogo.png" width="30%">
-
-INNP 现已加入 [404星链计划](https://github.com/knownsec/404StarLink)
-
-## TCH Top-Ranked Intelligent Pentest Project  
-<div align="left">
-  <a href="https://zc.tencent.com/competition/competitionHackathon?code=cha004" target="_blank">
-    <img src="./images/tch.png" alt="TCH Top-Ranked Intelligent Pentest Project" width="30%">
-  </a>
-</div>
-
-## Stargazers over time
-![Stargazers over time](https://starchart.cc/liuxinye23/qingfenglanyue.svg)
 
 ---
 
