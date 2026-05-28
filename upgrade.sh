@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# CyberStrikeAI GitHub one-click upgrade script (Release/Tag)
+# INNP GitHub one-click upgrade script (Release/Tag)
 #
 # Default preserves:
 # - config.yaml
@@ -22,7 +22,7 @@ KNOWLEDGE_BASE_DIR="$ROOT_DIR/knowledge_base"
 
 BACKUP_BASE_DIR="$ROOT_DIR/.upgrade-backup"
 
-GITHUB_REPO="Ed1s0nZ/CyberStrikeAI"
+GITHUB_REPO="Ed1s0nZ/INNP"
 
 TAG=""
 PRESERVE_VENV=1
